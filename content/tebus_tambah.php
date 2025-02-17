@@ -66,6 +66,8 @@ while($data = mysqli_fetch_assoc($result)){
                 <input type="submit" value="Simpan" class="btn btn-primary">
                 <input type="reset" value="Reset" class="btn btn-danger">
               </div>
+              </form>
+              </div>
 
  <?php
 

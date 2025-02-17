@@ -18,6 +18,7 @@
               <th>Tanggal Melanggar</th>
               <th>Kode pelanggaran</th>
               <th>Poin</th>
+              <th>Action</th>
             </tr>
           </thead>
           <tbody>
@@ -36,7 +37,9 @@
                 <td><?= $data['tanggal'] ?></td>
                 <td><?= $data['kode'] ?></td>
                 <td><?= $data['poin'] ?></td>
-
+                <td>
+                <a href="?hal=tebus_hapus&id=<?= $data['id_rwt'] ?>" class="btn btn-primary"> Hapus </a>
+                </td>
             </tr>
         <?php
         }

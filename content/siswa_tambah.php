@@ -50,6 +50,7 @@ if(!defined('INDEX')) die();
 
                   <div class="box-footer">
                 <input type="submit" value="Simpan" class="btn btn-primary">
+                <input type="reset" value="Reset" class="btn btn-primary">
               </div>
             </form>
 

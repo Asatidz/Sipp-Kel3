@@ -3,10 +3,11 @@
             <div class="col-xs-12">
               <!-- /.box -->
 
-              <div class="box">
-                <div class="box-header">
-                  <h3 class="box-title">Pelanggaran</h3>
-                </div>
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">Quick Example</h3>
+            </div>
+
                 <!-- /.box-header -->
                 <div class="box-body">
                     <a href="?hal=pelanggaran_tambah" class="tombol"><b>Tambah</b></a>
@@ -37,8 +38,8 @@
                 <td><?= $data['poin'] ?></td>
                 <td><?= $data['kode'] ?></td>
               <td>
-                <a href="?hal=pelanggaran_edit&id=<?= $data['id_pelanggaran'] ?>" class="tombol edit"> Edit </a>
-                <a href="?hal=pelanggaran_hapus&id=<?= $data['id_pelanggaran'] ?>" class="tombol hapus"> Hapus </a>
+                <a href="?hal=pelanggaran_edit&id=<?= $data['id_pelanggaran'] ?>" class="btn btn-primary"> Edit </a>
+                <a href="?hal=pelanggaran_hapus&id=<?= $data['id_pelanggaran'] ?>" class="btn btn-primary"> Hapus </a>
               </td>
             </tr>
         <?php

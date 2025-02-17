@@ -38,7 +38,7 @@
                 <td><?= $data['kode_pl'] ?></td>
                 <td><?= $data['poin_plg'] ?></td>
               <td>
-                <a href="?hal=riwayat_hapus&id=<?= $data['id_riwayat'] ?>" class="tombol hapus"> Hapus </a>
+                <a href="?hal=riwayat_hapus&id=<?= $data['id_riwayat'] ?>" class="btn btn-primary"> Hapus </a>
               </td>
             </tr>
         <?php

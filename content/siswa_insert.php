@@ -24,7 +24,6 @@ if($foto == ""){
     $query .= "kelas = '$kelas', ";
     $query .= "jurusan = '$jurusan', ";
     $query .= "gender = '$gender'";
-    
 
     $result = mysqli_query($con,$query);
 } else {

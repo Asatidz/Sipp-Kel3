@@ -46,9 +46,9 @@
     <td><?=$data['poin_sis']?></td>
     <td>
         <a href="?hal=siswa_edit&id=<?=$data['id_siswa']?>"
-        class="tombol edit">Edit</a>
+         class="btn btn-primary">Edit</a>
         <a href="?hal=siswa_hapus&id=<?=$data['id_siswa']?>&foto=<?=$data['foto']?>"
-        class="tombol hapus">Hapus</a>
+         class="btn btn-primary">Hapus</a>
     </td>
 </tr>
 
