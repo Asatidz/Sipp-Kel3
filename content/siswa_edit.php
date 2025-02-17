@@ -11,6 +11,11 @@ $data = mysqli_fetch_assoc($result);
 <h2 class="judul">Edit Pegawai</h2>
 <form action="?hal=siswa_update" method="post" enctype="multipart/form-data">
 
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">Quick Example</h3>
+            </div>
+
     <!-- Input ID -->
     <input type="hidden" name="id" value="<?=$data['id_siswa']?>">
     

@@ -1,3 +1,7 @@
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">Quick Example</h3>
+            </div>
 <h1>Cek Data</h1>
 <form action="" method="get">
     <input type="hidden" name="hal" value="tebus_tambah">
