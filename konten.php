@@ -26,6 +26,7 @@
     "tebus",
     "tebus_tambah",
     "tebus_insert",
+    "tebus_hapus"
     ];
 
 if (isset($_GET['hal'])) {

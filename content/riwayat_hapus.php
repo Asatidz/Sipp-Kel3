@@ -7,7 +7,7 @@ $result = mysqli_query($con, $query);
 
 if ($result) {
     echo "pelanggaran berhasil dihapus!";
-    echo "<meta http-equiv='refresh' content='2; url=?hal=riwayat'>";
+    echo "<meta http-equiv='refresh' content='1; url=?hal=riwayat'>";
 } else {
     echo "Tidak dapat menghapus data!!<br>";
     echo mysqli_error();

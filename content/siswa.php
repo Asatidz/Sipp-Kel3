@@ -43,7 +43,7 @@
     <td><?=$data['kelas']?></td>
     <td><?=$data['jurusan']?></td>
     <td><?=$data['gender']?></td>
-    <td><?=$data['poin_sis']?></td>
+    <td><?= number_format(intval($data['poin_sis']))?></td>
     <td>
         <a href="?hal=siswa_edit&id=<?=$data['id_siswa']?>"
          class="btn btn-primary">Edit</a>

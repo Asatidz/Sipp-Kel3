@@ -8,7 +8,7 @@ $result = mysqli_query($con,$query);
 $data = mysqli_fetch_assoc($result);
 ?>
 
-<h2 class="judul">Edit Pegawai</h2>
+<h2 class="judul">Edit Siswa</h2>
 <form action="?hal=siswa_update" method="post" enctype="multipart/form-data">
 
           <div class="box box-primary">

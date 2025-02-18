@@ -14,6 +14,7 @@ $kode = $_POST['kode'];
         $query .= "kode = '$kode' ";
     
     $result = mysqli_query($con,$query);
+    
 if ($result) {
     echo "Pelanggaran <b>$nama</b> Berhasil Disimpan!";
     echo "<meta http-equiv='refresh' content='2; url=?hal=pelanggaran'>";

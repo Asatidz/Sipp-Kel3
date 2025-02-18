@@ -1,5 +1,5 @@
 <!-- To the right -->
-<div class="pull-right hidden-xs">
+<div class="pull-right skin-blue hidden-xs">
       Syinpewa
     </div>
     <!-- Default to the left -->

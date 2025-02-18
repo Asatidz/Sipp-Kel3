@@ -2,12 +2,12 @@
 if(!defined('INDEX')) die();
 
 $id = $_GET['id'];
-$query = "DELETE FROM tebus WHERE id_riwayat = '$id'";
+$query = "DELETE FROM rw_tebus WHERE id_rwt = '$id'";
 $result = mysqli_query($con, $query);
 
 if ($result) {
-    echo "Tebusan berhasil dihapus!";
-    echo "<meta http-equiv='refresh' content='2; url=?hal=riwayat'>";
+    echo "Data Penebusan berhasil dihapus!";
+    echo "<meta http-equiv='refresh' content='1; url=?hal=tebus'>";
 } else {
     echo "Tidak dapat menghapus data!!<br>";
     echo mysqli_error();
