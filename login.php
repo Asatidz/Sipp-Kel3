@@ -45,7 +45,7 @@
     </div>
     <div class="footer">
      <p>
-      By Made
+      Made With ❤️
       <i class="fas fa-heart">
       </i>
       by TechnoMancers |

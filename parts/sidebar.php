@@ -31,6 +31,7 @@
           <li class="active"><a href="?hal=siswa"><i class="fa fa-link"></i> <span>Data Siswa</span></a></li>
           <li class="active"><a href="?hal=riwayat"><i class="fa fa-link"></i> <span>Riwayat</span></a></li>
           <li class="active"><a href="?hal=tebus"><i class="fa fa-link"></i> <span>Penebusan</span></a></li>
+          <li class="active"><a href="?hal=pebus"><i class="fa fa-link"></i> <span>Jenis Tebus</span></a></li>
           <li class="active"><a href="logout.php"><i class="fa fa-link"></i> <span>Logout</span></a></li>
           </ul>
         </li>

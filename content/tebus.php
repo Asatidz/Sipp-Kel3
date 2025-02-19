@@ -5,7 +5,7 @@
 
               <div class="box">
                 <div class="box-header">
-                  <h3 class="box-title">Data Penembusan</h3>
+                  <h3 class="box-title">Data Penebusan</h3>
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body">
@@ -15,8 +15,8 @@
               <th>No</th>
               <th>Nisn</th>
               <th>Nama</th>
-              <th>Tanggal Melanggar</th>
-              <th>Kode pelanggaran</th>
+              <th>Tanggal Menebus</th>
+              <th>Kode Tebus</th>
               <th>Poin</th>
               <th>Action</th>
             </tr>

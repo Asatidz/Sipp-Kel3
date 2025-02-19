@@ -5,8 +5,7 @@ ob_start();
 include "library/config.php";
 
 if(empty($_SESSION['username']) OR empty($_SESSION['password'])) {
-    echo "<p align='center'><h1><b>Anda Harus Login Sek Brohh!!</b></h1></p>";
-    echo "<meta http-equiv='refresh' content='2; url=login.php'>";
+    echo "<meta http-equiv='refresh' content='0; url=login.php'>";
 }else{
     define('INDEX', true);
 

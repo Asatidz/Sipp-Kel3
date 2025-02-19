@@ -34,7 +34,7 @@
             <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">Top Pelanggaran</span>
+              <span class="info-box-text">Jumlah Pelanggaran</span>
               <span class="info-box-number">3</span>
             </div>
             <!-- /.info-box-content -->
@@ -55,7 +55,7 @@
             <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">Top Siswa</span>
+              <span class="info-box-text">Jumlah Siswa</span>
               <span class="info-box-number">5</span>
             </div>
             <!-- /.info-box-content -->

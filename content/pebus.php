@@ -5,26 +5,25 @@
 
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Data Pelanggaran</h3>
+              <h3 class="box-title">Macam Tebusan</h3>
             </div>
 
                 <!-- /.box-header -->
                 <div class="box-body">
-                    <a href="?hal=pelanggaran_tambah" class="tombol"><b>Tambah</b></a>
+                    <a href="?hal=pebus_tambah" class="tombol"><b>Tambah</b></a>
                   <table id="example2"class="table table-bordered table-striped">
                 <thead>
                 <tr>
                   <th>No</th>
                   <th>Nama Pelanggaran</th>
-                  <th>Jenis Pelanggaran</th>
                   <th>Poin</th>
-                  <th>Kode Pl</th>
+                  <th>Kode</th>
                   <th>Action</th>
                 </tr>
                 </thead>
                 <tbody>
             <?php
-                $query = "select * from pelanggaran order by id_pelanggaran desc";
+                $query = "select * from tebus order by id_tebus desc";
                 $result = mysqli_query($con,$query);
                 $no = 0;
                 while($data = mysqli_fetch_array($result)){
@@ -33,13 +32,11 @@
             ?>
             <tr>
               <td><?= $no ?></td>
-                <td><?= $data['nama_pelanggaran'] ?></td>
-                <td><?= $data['jenis_pelanggaran'] ?></td>
-                <td><?= $data['poin'] ?></td>
-                <td><?= $data['kode'] ?></td>
+                <td><?= $data['nama_tebus'] ?></td>
+                <td><?= $data['poin_tebus'] ?></td>
+                <td><?= $data['kode_tebus'] ?></td>
               <td>
-                <a href="?hal=pelanggaran_edit&id=<?= $data['id_pelanggaran'] ?>" class="btn btn-primary"> Edit </a>
-                <a href="?hal=pelanggaran_hapus&id=<?= $data['id_pelanggaran'] ?>" class="btn btn-primary"> Hapus </a>
+                <a href="?hal=pebus_hapus&id=<?= $data['id_tebus'] ?>" class="btn btn-primary"> Hapus </a>
               </td>
             </tr>
         <?php

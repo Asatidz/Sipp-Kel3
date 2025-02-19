@@ -2,11 +2,11 @@
           <!-- general form elements -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Quick Example</h3>
+              <h3 class="box-title">Data Pelanggaran</h3>
             </div>
             <!-- /.box-header -->
             <!-- form start -->
-<h2 class="judul">Tambah Jabatan</h2>
+<h2 class="judul">Tambah Pelanggaran</h2>
 <form action="?hal=pelanggaran_insert" method="post" role="form">
               <div class="box-body">
                 <div class="form-group">

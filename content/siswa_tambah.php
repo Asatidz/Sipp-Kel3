@@ -1,12 +1,12 @@
 <?php
 if(!defined('INDEX')) die();
 ?>
-<h2 class="judul">Tambah Pegawai</h2>
+<h2 class="judul">Tambah Siswa</h2>
 <form action="?hal=siswa_insert" method="post" enctype="multipart/form-data">
   
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Quick Example</h3>
+              <h3 class="box-title">Tambah</h3>
             </div>
 
                 <div class="form-group">

@@ -7,8 +7,14 @@ $result = mysqli_query($con,$query);
 $data = mysqli_fetch_assoc($result);
 ?>
 
-<h2 class="judul">Tambah Pelanggaran</h2>
+<h2 class="judul">Edit Pelanggaran</h2>
 <form action="?hal=pelanggaran_update" method="post" role="form">
+
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">Mengedit</h3>
+            </div>
+
     <input type="hidden" name="id" value="<?=$data['id_pelanggaran']?>">
               <div class="box-body">
                 <div class="form-group">

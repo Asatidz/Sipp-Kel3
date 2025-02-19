@@ -13,7 +13,7 @@ $data = mysqli_fetch_assoc($result);
 
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Quick Example</h3>
+              <h3 class="box-title">Mengedit</h3>
             </div>
 
     <!-- Input ID -->
