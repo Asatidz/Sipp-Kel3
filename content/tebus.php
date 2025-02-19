@@ -8,7 +8,7 @@
                   <h3 class="box-title">Data Penebusan</h3>
                 </div>
                 <!-- /.box-header -->
-                <div class="box-body">
+                <div class="box-body table-responsive">
                     <a href="?hal=tebus_tambah" class="tombol"><b>Tambah</b></a>
                   <table id="example2"class="table table-bordered table-striped">
             <tr>
