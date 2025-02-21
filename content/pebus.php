@@ -32,8 +32,8 @@
             ?>
             <tr>
               <td><?= $no ?></td>
-                <td><?= $data['nama_tebus'] ?></td>
-                <td><?= $data['poin_tebus'] ?></td>
+              <td><?= $data['nama_tebus'] ?></td>
+              <td><?= $data['poin_tebus'] ?></td>
                 <td><?= $data['kode_tebus'] ?></td>
               <td>
                 <a href="?hal=pebus_hapus&id=<?= $data['id_tebus'] ?>" class="btn btn-primary"> Hapus </a>
